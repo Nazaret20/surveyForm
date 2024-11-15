@@ -1,0 +1,78 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-color: rgb(31, 31, 76);
+    color: rgb(236, 236, 236);
+    font-family: Verdana;
+    font-size: 1.7rem;  
+  }
+  
+  section{
+    max-width: 700px;
+    min-width: 400px;
+    margin: 30px auto;
+    background-color: rgba(19, 22, 47, 0.628);
+    padding: 20px 10px;
+    border-radius: 5px;
+  }
+  
+  fieldset {
+    margin: 10px;
+    border: none;
+  }
+  
+  #title, #description{
+    text-align: center;
+  }
+  #title {
+    margin-top: 40px;
+  }
+  
+  #name-label, #email-label, #number-label {
+    display: block;
+    padding: 15px 0;
+    font-size: 1.8rem;
+  }
+  
+  #name, #email, #number, #dropdown  {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .yes, .no {
+    display: block;
+    margin-top: 8px;
+  }
+  
+  .checkbox label {
+    display: block;
+    margin-top: 8px;
+  }
+  
+  textarea {
+    border-radius: 3px;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(108, 205, 108);
+  }

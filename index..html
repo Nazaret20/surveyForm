@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <h1 id="title">Survey Form</h1>
+  <p id="description"><em>Thank you for taking the time to answer these questions.</em></p>
+<section>
+<form id="survey-form">
+<fieldset>
+    <label id="name-label">Your name: <input name="name" type="text" id="name" placeholder="Enter your name" required /> </label>
+
+    <label id="email-label">Your email: <input name="email" type="email" id="email" placeholder="myemail@gmail.com" required /></label>
+
+    <label id="number-label">Your age <small><em>(optional)</em></small>: <input name="age" type="number" id="number" placeholder="18" min="18" max="100" /></label>
+</fieldset>
+
+<fieldset>
+  <label for="dropdown">What is your current role?</label>
+    <select id="dropdown">
+      <option>(select one)</option>
+      <option>Student</option>
+      <option>Full time job</option>
+      <option>Half time job
+      <option>Other</option>
+    </select>
+</fieldset>
+
+<fieldset>
+  <label>Would you recommend us?</label>
+  <label class="yes"><input name="yes-no" value="yes" type="radio">Of course</label>
+  <label class="no"><input name="yes-no" value="no" type="radio">Not really</label>
+</fieldset>
+
+<fieldset class="checkbox">
+  <label>What would you like to improve? <small><em>(check what apply)</em></small></label>
+  <label><input value="html" type="checkbox">HTML</label>
+  <label><input value="css" type="checkbox">CSS</label>
+  <label><input value="javascript" type="checkbox">JavaScript</label>
+  <label><input value="front-end-libraries" type="checkbox">Front-end libraries</label>
+</fieldset>
+
+<fieldset>
+  <p>Share with us your suggestions:</p>
+  <textarea type="textarea" placeholder="I would add..."></textarea>
+</fieldset>  
+
+<fieldset>
+<button id="submit" type="submit">Submit
+</button>
+</fieldset>
+</form>
+</section>
+</body>
+</html>
